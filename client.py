@@ -21,7 +21,7 @@ colors = {
 }
 
 
-server_host = "127.0.0.1"
+server_host = input("Enter server address: ")
 server_port = 8392
 separator_token = "<SEP>"
 
