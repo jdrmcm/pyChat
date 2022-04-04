@@ -2,7 +2,7 @@ import socket
 from threading import Thread
 
 
-server_host = input("Enter server address: ")
+server_host = "0.0.0.0"
 server_port = 8392
 separator_token = "<SEP>"
 

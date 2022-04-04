@@ -1,7 +1,7 @@
 import socket
 from threading import Thread
 from datetime import datetime
-from colorama import Fore, init, Back
+from colorama import Fore, init
 
 
 init()
@@ -13,7 +13,7 @@ client_color = Fore.WHITE
 colors = {
     "red": Fore.RED,
     "blue": Fore.BLUE,
-    "magenta": Fore.MAGENTA,
+    "purple": Fore.MAGENTA,
     "white": Fore.WHITE,
     "yellow": Fore.YELLOW,
     "cyan": Fore.CYAN,
